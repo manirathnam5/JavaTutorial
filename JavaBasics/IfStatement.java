@@ -10,8 +10,8 @@ class IfStatement{
 	
 	   System.out.println("Order is accepted");
 	   
-	   }
 	  
+	   }
 
    System.out.println("Program continuees");	  
 	   
