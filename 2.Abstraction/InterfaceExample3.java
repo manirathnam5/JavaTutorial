@@ -91,6 +91,7 @@ class InterfaceExample3 {
         bike.applyBrakes(3);
         
         System.out.println("Bike present state :");
+		
         bike.printStates();
     }
 }
