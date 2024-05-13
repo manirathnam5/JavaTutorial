@@ -22,7 +22,7 @@ abstract class DemoAbstractClass implements Demo {
 }
 
 
-class  OriginalClass extends DemoAbstractClass{
+class  OriginalClass extends DemoAbstractClass {
 	
    public void A(){
 	    System.out.println(" A function overriding");
