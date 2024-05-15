@@ -1,5 +1,5 @@
 
-interface Bank{
+interface Bank {
 
     void withdraw();
 
