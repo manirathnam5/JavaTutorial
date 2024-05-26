@@ -1,4 +1,4 @@
-//charAt example program
+
 class StringExample10{  
 public static void main(String args[]){  
 String name="javatpoint";  
