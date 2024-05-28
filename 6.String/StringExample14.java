@@ -1,3 +1,4 @@
+// Program examples for concat, contains for different scenairos
 class StringExample14{
 
     public static void main(String[] arg){
