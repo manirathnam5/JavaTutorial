@@ -11,6 +11,18 @@ class StringExample13{
 
           System.out.println(s1.compareTo(s2));
 
+          //String concat method
+
+
+          String s3 = "Welcome " ;
+
+          String s4 = "to javaworld" ;
+
+          System.out.println(s3.concat(s4));
+
+
+          
+
      }
 
 }
