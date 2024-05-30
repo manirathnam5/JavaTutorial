@@ -2,11 +2,18 @@
 class StringExample14{
 
     public static void main(String[] arg){
+
 String s1 = "what do you do now developer";
 
 boolean s = s1.contains("developer") ;
 
  System.out.println(s);
+
+
+ String myname="Jondy Rhodes";
+
+ System.out.println("is name ends with rhodes  "+myname.endsWith("des"));
+
         
  //if you pass null object in contains method it throw nullpointer exception
 try{
@@ -27,5 +34,8 @@ catch(Exception e){
         System.out.println("user not found ");
 
        }
+
+       
+
     }
 }
