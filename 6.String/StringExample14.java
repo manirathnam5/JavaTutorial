@@ -14,6 +14,8 @@ boolean s = s1.contains("developer") ;
 
  System.out.println("is name ends with rhodes  "+myname.endsWith("des"));
 
+ System.out.println("is name starts with jondy " + myname.startsWith("ma"));
+
         
  //if you pass null object in contains method it throw nullpointer exception
 try{
