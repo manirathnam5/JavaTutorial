@@ -3,9 +3,9 @@ class StringExample14{
 
     public static void main(String[] arg){
 
-String s1 = "what do you do now developer";
+ String s1 = "what do you do now developer";
 
-boolean s = s1.contains("developer") ;
+ boolean s = s1.contains("developer") ;
 
  System.out.println(s);
 
@@ -19,9 +19,17 @@ boolean s = s1.contains("developer") ;
         
  //if you pass null object in contains method it throw nullpointer exception
 try{
- boolean s2 = s1.contains(null );
+ 
 
- System.out.println(s2);
+
+ String s3 = "Welcome" ;
+
+ String s4 = "Welcome";
+
+ System.out.println("Using equals method "+s3.equals(s4));
+
+ System.out.println("Using == method "+s3 == s4 ) ;
+
 }
 catch(Exception e){
     System.out.println("Please give valid input for contains ");
