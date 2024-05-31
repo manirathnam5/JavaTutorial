@@ -1,4 +1,4 @@
-// Program examples for concat, contains for different scenairos
+// Program examples for concat, contains , equals for different scenairos
 class StringExample14{
 
     public static void main(String[] arg){
