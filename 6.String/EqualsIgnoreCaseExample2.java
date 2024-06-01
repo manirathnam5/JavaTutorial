@@ -35,6 +35,7 @@ class EqualsIgnoreCaseExample2{
         list.add("RAVI");  
         list.add("MuKesH kuMar");  
         list.add("Suresh");  
+        
         for (String str : list) {  
             if (str.equalsIgnoreCase(str2)) {  
                 System.out.println("Mukesh kumar is present");  
