@@ -11,5 +11,12 @@ class StringExample15{
 
       System.out.println(tr.length());
 
+
+      // indexOf method 
+
+      String str = "whereareyou";
+
+      System.out.println(str.indexOf('e'));
+
     }
 }
