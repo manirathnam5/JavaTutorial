@@ -40,7 +40,19 @@ try{
  String s6 = "Helloworld" ;
 
  System.out.println(s6.length()) ;
+
+
+  //valueOf method
  
+  int a = 10;
+
+  String str1 = String.valueOf(a) ;
+
+  System.out.println("Value of method "+str1+10);
+ 
+
+
+
 
 }
 catch(Exception e){
