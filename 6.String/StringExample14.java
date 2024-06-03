@@ -30,6 +30,18 @@ try{
 
  System.out.println("Using == method "+s3 == s4 ) ;
 
+ //length method 
+
+ String s5 = "Welcome";
+
+ System.out.println(s5.length());
+
+
+ String s6 = "Helloworld" ;
+
+ System.out.println(s6.length()) ;
+ 
+
 }
 catch(Exception e){
     System.out.println("Please give valid input for contains ");
