@@ -22,9 +22,9 @@ class RegexExample1{
 
           System.out.println(Pattern.matches(".s","aas")); //return false 
 
-          System.out.println(Pattern.matches(".s","mmass")) ; //return false 
+          System.out.println(Pattern.matches("....s","mmass")) ; //return false 
 
-          System.out.println(Pattern.matches(".s","mk")); //return true 
+          System.out.println(Pattern.matches("m..k","madsk")); //return false 
 
 
 
