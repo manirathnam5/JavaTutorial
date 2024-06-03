@@ -18,5 +18,9 @@ class StringExample15{
 
       System.out.println(str.indexOf('e'));
 
+      String str1 = "Welcome to Java programming ";
+      System.out.println(str1.indexOf("Java"));
+
+
     }
 }
