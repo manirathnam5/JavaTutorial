@@ -14,7 +14,5 @@ class TryCatchExample5{
             System.out.println(e) ;
         }
 
-        
-
-    }
+        }
 }
