@@ -7,7 +7,7 @@ public static void main(String[] arg) {
 
     int b  = 0;
 
-    // exception is throw in catch block 
+    // exception is thrown to catch block where it is resolved  
 try{
 
       
@@ -23,7 +23,6 @@ catch(Exception e){
 
    System.out.println( c = a/(b+2)) ;
 
-    
 
 }
 
