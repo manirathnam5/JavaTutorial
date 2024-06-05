@@ -20,5 +20,7 @@
             System.out.println(" Object is null ") ;
         }
 
+        System.out.println("Rest of the code ") ;
+
     }
 }
