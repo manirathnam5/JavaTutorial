@@ -5,7 +5,7 @@ class MutliCatchBlockExample1{
 
           try{
 
-            int[] arr = new int[5] ;
+            int[] arr   = new int[5] ;
 
                 arr[4]  = 40/0;
           } 
@@ -23,5 +23,6 @@ class MutliCatchBlockExample1{
           }
 
 
+          System.out.println("Rest of the code ") ;
     }
 }
