@@ -1,3 +1,5 @@
+// Finally block is executed 
+
 class FinallyBlockExample1{
 
    
