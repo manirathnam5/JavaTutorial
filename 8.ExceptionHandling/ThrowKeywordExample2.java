@@ -1,6 +1,6 @@
 // Program to throw user defined exception - simple real use case 
 
- class UserDefinedException extends RuntimeException{
+ class UserDefinedException extends Exception {
 
 
     public  UserDefinedException(String str){
@@ -17,7 +17,7 @@ class ThrowKeywordExample2{
 
 
 
-   static void validate(String  footwear) {
+   static void validate(String  footwear)  throws Exception{
 
 
         if(footwear.equalsIgnoreCase("Yes") ) {
@@ -32,7 +32,7 @@ class ThrowKeywordExample2{
     }
 
 
-    public static void main(String[] arg) {
+    public static void main(String[] arg) throws Exception{
 
 
           validate("Yes") ;
