@@ -16,7 +16,6 @@ class ThrowKeywordExample2{
 
 
 
-
    static void validate(String  footwear)  throws Exception{
 
 
