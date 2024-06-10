@@ -1,8 +1,10 @@
 
   class MyCustomeException extends Exception{
 
+ public MyCustomeException(String str){
 
-
+    super( str);
+ }
 
   }
 
@@ -13,7 +15,7 @@ class ExceptionExample1{
 
       try{
 
-        throw new MyCustomeException() ;
+        throw new MyCustomeException("My own exception") ;
 
       } 
       catch( MyCustomeException mce){
