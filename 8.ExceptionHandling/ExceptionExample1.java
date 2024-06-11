@@ -22,6 +22,7 @@ class ExceptionExample1{
         System.out.println("Caught the exception") ;
         System.out.println(mce.getMessage()) ;
       }
+
       System.out.println("Rest of the code ") ;
     }
 }
