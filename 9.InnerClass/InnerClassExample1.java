@@ -5,7 +5,6 @@ class TestMemberOuter1{
     System.out.println("data is "+ data);
     }  
  }  
-
 }
 
 class InnerClassExample1{
@@ -14,7 +13,6 @@ class InnerClassExample1{
   TestMemberOuter1 obj=new TestMemberOuter1();  
   
   TestMemberOuter1.Inner in=obj.new Inner();  
-  
   
   in.msg();  
   
