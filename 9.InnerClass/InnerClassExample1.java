@@ -4,6 +4,7 @@ class TestMemberOuter1{
  class Inner{ 
  
   void msg(){
+
     System.out.println("data is "+ data);
     }  
  }  
