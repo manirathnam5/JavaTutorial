@@ -1,7 +1,8 @@
 class TestMemberOuter1{  
  private int data=30;  
 
- class Inner{  
+ class Inner{ 
+ 
   void msg(){
     System.out.println("data is "+ data);
     }  
