@@ -7,6 +7,7 @@ class TestMemberOuter1{
 
     System.out.println("data is "+ data);
     }  
+
  }  
 }
 
