@@ -34,7 +34,6 @@ class InnerClassExample4{
    Showable showableObj = new Testclass();
 
    obj.msg();
-
    showableObj.show();
 
      }  
