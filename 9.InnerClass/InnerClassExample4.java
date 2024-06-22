@@ -22,7 +22,6 @@ class Testclass implements Showable,Showable.Messagable{
     public void show(){
         System.out.println("am showing ") ;
     }
-    
 }
 
 
